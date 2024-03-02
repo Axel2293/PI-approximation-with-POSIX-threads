@@ -1,3 +1,9 @@
+/* 
+	Practica 1: calculo de aproximacion de PI con hilos
+	Axel Escoto Garcia
+	Sergio Villa Rodriguez
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

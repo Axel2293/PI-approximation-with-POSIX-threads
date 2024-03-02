@@ -1,3 +1,8 @@
+/* 
+	Practica 1: calculo de aproximacion de PI con un solo hilo
+	Axel Escoto Garcia
+	Sergio Villa Rodriguez
+ */
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,7 +20,7 @@ int main(int argc, char **argv)
     printf("[+] Precision set to %ld\n", precision);
 
     double pi = 0;
-    double base_all = (double)1 / (double)precision; // Devide 1 to get all the bases of the rectangel
+    double base_all = (double)1 / (double)precision; // Devide 1 to get all the bases of the rectangle
     double half = base_all / 2.0;
 
     struct timeval tval_before, tval_after, tval_result;

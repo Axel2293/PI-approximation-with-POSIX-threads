@@ -7,7 +7,7 @@ target = piaproximation
 
 $(target): $(src_files)
 	gcc $^ -o $@ $(lib_pt)
-
+	
 clean:
 	rm -f $(target)
 	rm -f $(bin_files)
